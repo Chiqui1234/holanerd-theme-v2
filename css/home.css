@@ -1,0 +1,52 @@
+#new {
+    width: 100vw;
+    height: 75vh;
+    position: relative;
+    background-color: var(--grey);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 5px 10px var(--black);
+    transition: var(--timing) ease-out;
+}
+#new:hover {
+    background-size: 110%;
+}
+#new .gradient {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, transparent 50%, var(--white-semi) 100%);
+    z-index: 905;
+}
+#new #general {
+    position: absolute;
+    bottom: 0;
+    z-index: 906;
+}
+#new #general.grid-2 {
+    grid-template-columns: 70% 30%;
+}
+#new .info .grid-2 {
+    grid-template-columns: 35% 65%;
+}
+#new .info ul .grid-2 .detail {
+    display: none;
+}
+#new .info ul .grid-2:hover .detail {
+    display: block;
+}
+/*  */
+#wrapper div.grid-3 {
+    margin: var(--gap) 0 var(--gap) 0;
+}
+#wrapper h2 {
+    font-size: 42px;
+    line-height: 32px;
+}
+#wrapper h2.clicky {
+    font-size: 34px;
+    line-height: 46px;
+}

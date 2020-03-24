@@ -1,0 +1,8 @@
+.gap {gap: var(--gap);}
+.grid, .grid-2, .grid-3, .grid-4, .grid-6 {display: grid;}
+.grid-2 {grid-template-columns: repeat(2, 1fr);}
+.grid-3 {grid-template-columns: repeat(3, 1fr);}
+/*  */
+@media (max-width: 1279px) {
+    .grid-2, .grid-3 {grid-template-columns: 100%;}
+}
