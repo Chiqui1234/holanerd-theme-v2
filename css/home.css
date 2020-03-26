@@ -59,6 +59,7 @@
 }
 #wrapper ul li:hover {
     transform: rotateY(10deg);
+    box-shadow: -3px -1px 10px var(--grey);
 }
 /* wrapper programming */
 #wrapper #programming ul li:nth-child(odd) {
