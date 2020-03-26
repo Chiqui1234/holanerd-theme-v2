@@ -11,35 +11,27 @@
 </head>
 <body>
     <div id="root" class="fullScreen blueBg">
-        <div id="new" style="background-image: url('https://cdn02.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_download_software_1/H2x1_NSwitchDS_Shipped_image1600w.jpg');">
-            <div class="gradient"></div>
-            <div id="general" class="grid-2 gap padding">
-                <div class="caption padding">
-                    <h1>
-                        Review de Shipped, de Alva Majo
-                    </h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi provident aperiam qui commodi possimus. Quidem aperiam repudiandae odit ipsa incidunt quae consectetur corrupti at sit, accusamus commodi quam. Quas, blanditiis!
-                    </p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At, commodi modi qui delectus id error nam ipsum praesentium perspiciatis deleniti tempore, rem totam, magni nisi eaque suscipit neque quidem tempora?
-                    </p>
-                </div>
-                <div class="info padding">
-                    <p>Info del autor, fecha del post, comentarios, etc</p>
+        <div id="wrapper" class="readWidth center"> <!-- wrapper -->
+            <!-- Reviews -->
+            <div id="reviews" class="padding blueBorder marginY">
+                <h2 class="centerText">Reviews</h2>
+                <div class="grid-2 gap">
+                    <div class="img" style="background-image: url('https://images.cgmagonline.com/wp-content/uploads/2019/10/intel-core-i9-9900k-hardware-review.jpg');"></div>
+                    <ul class="minimal">
+                        <li>
+                            <div class="text">Review Zalman CNPS9500 Led</div>
+                        </li>
+                        <li>
+                            <div class="text">Gigabyte RX 590 8GB V2.0</div>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div id="wrapper" class="readWidth center"> <!-- wrapper -->
-            <div class="grid-3 gap padding blueBorder"> <!-- Lista de categorías -->
-                <div id="gaming">
-                    <h2 class="snes centerText">Gaming</h2>
-                    <img src="https://boygeniusreport.files.wordpress.com/2019/02/anker-gaming-mouse.jpg" alt="" width="100%" height="200" />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam pariatur asperiores quam, provident vero odio sit magni, et consequuntur delectus assumenda eveniet qui quibusdam. Possimus provident laborum animi corrupti?</p>
-                </div>
+            <!-- !Reviews -->
+            <div class="grid-2 gap padding blueBorder marginY"> <!-- Lista de categorías -->
                 <div id="programming">
                     <h2 class="vt323 centerText">Programación</h2>
-                    <img src="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/poster.webp" alt="" width="100%" height="200" />
+                    <div class="img" style="background-image: url('https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/poster.webp');"></div>
                     <ul class="minimal marginY">
                         <li>
                             <div class="text">Porqué negamos bibliotecas de terceros</div>
@@ -70,40 +62,49 @@
                         <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 0;">
                             <div class="text">¡Montamos un servidor online para gaming! ¿Cómo lo programamos?</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 50px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 40px;">
                             <div class="text">Apertura de puertos e IPs públicas</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 100px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 80px;">
                             <div class="text">Configurar Nginx para varios dominios virtuales en el mismo servidor</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 150px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 120px;">
                             <div class="text">Configurar un Servidor VPS para tu app PHP</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 200px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 160px;">
                             <div class="text">Configurar un Servidor VPS para tu app NodeJs</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 250px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 200px;">
                             <div class="text">¿Que servicios de hosting son los mejores?</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 300px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 240px;">
                             <div class="text">Registrar un dominio, configurar DNS y hosting básico</div>
                         </li>
-                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 350px;">
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 280px;">
                             <div class="text">Benchmarks Apache vs Nginx en Ubuntu Server</div>
+                        </li>
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 320px;">
+                            <div class="text">Me quedé sin ideas 1</div>
+                        </li>
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 360px;">
+                            <div class="text">Me quedé sin ideas 2</div>
+                        </li>
+                        <li style="background-image: url('https://i2.wp.com/itsfoss.com/wp-content/uploads/2015/10/display-linux-logo-ascii-terminal.jpeg');background-position-y: 400px;">
+                            <div class="text">Me quedé sin ideas 3</div>
                         </li>
                     </ul>
                 </div>
-            </div> <!-- Lista de categorías -->
+            </div> <!-- !Lista de categorías -->
 
-            <div class="grid-3 gap padding blueBorder"> <!-- Lista de categorías -->
+            <div class="grid-2 gap padding blueBorder marginY"> <!-- Lista de categorías -->
                 <div id="printer">
                     <h2 class="clicky centerText">3D y Raspberry</h2>
-                    <img src="https://i.ytimg.com/vi/dH-iZO05Eoc/maxresdefault.jpg" alt="" width="100%" height="200" />
+                    <div class="img" style="background-image: url('https://i.ytimg.com/vi/dH-iZO05Eoc/maxresdefault.jpg');"></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto numquam pariatur asperiores quam, provident vero odio sit magni, et consequuntur delectus assumenda eveniet qui quibusdam. Possimus provident laborum animi corrupti?</p>
                 </div>
                 <div id="design">
                     <h2 class="dancingScript centerText">Diseño</h2>
-                    <img src="https://i.ytimg.com/vi/DPSs1IxiDsM/maxresdefault.jpg" alt="" width="100%" height="200" />
+                    <div class="img" style="background-image: url('https://i.ytimg.com/vi/DPSs1IxiDsM/maxresdefault.jpg');"></div>
                     <ul class="minimal marginY">
                         <li>
                             <div class="text">Crear tu marca personal con Gimp</div>
@@ -116,20 +117,8 @@
                         </li>
                     </ul>
                 </div>
-                <div id="hardware">
-                    <h2 class="centerText">Hardware</h2>
-                    <img src="https://images.cgmagonline.com/wp-content/uploads/2019/10/intel-core-i9-9900k-hardware-review.jpg" alt="" width="100%" height="200" />
-                    <ul class="minimal marginY">
-                        <li>
-                            <div class="text">Review Zalman CNPS9500 Led</div>
-                        </li>
-                        <li>
-                            <div class="text">Gigabyte RX 590 8GB V2.0</div>
-                        </li>
-                    </ul>
-                </div>
-            </div> <!-- Lista de categorías -->
-        </div> <!-- wrapper -->
+            </div> <!-- !Lista de categorías -->
+        </div> <!-- !wrapper -->
     </div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 * {
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 /*  */
 @font-face {
@@ -33,6 +33,7 @@
     --pink: rgb(235, 22, 111);
     --red: rgb(240, 16, 27);
     --red-semi: rgba(240, 16, 27, 0.75);
+    --green: rgb(79, 216, 25);
     --yellow: rgb(224, 228, 23);
     --orange: rgb(241, 147, 24);
     /*  */
