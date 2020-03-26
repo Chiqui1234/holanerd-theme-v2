@@ -18,7 +18,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(180deg, transparent 50%, var(--white-semi) 100%);
+    background: linear-gradient(180deg, transparent 40%, var(--white-semi) 100%);
     z-index: 905;
 }
 #new #general {
@@ -47,6 +47,68 @@
     line-height: 32px;
 }
 #wrapper h2.clicky {
-    font-size: 34px;
-    line-height: 46px;
+    font-size: 25px;
+    line-height: 60px;
+}
+/* wrapper lists */
+#wrapper ul li {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    padding: var(--gap10);
+    transition: .3s ease-out;
+}
+#wrapper ul li:hover {
+    transform: rotateY(10deg);
+}
+/* wrapper programming */
+#wrapper #programming ul li:nth-child(odd) {
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    color: var(--black);
+    font-family: monospace;
+}
+#wrapper #programming ul li:nth-child(even) {
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-family: monospace;
+}
+/* wrapper linux */
+#wrapper #linux ul li {
+    color: var(--white);
+    font-family: sans-serif;
+    background-size: 100%;
+    background-position: center;
+    text-shadow: 1px 1px 5px var(--white),
+                -1px -1px 5px var(--black);
+}
+/* wrapper design */
+#wrapper #design ul li:nth-child(odd) {
+    background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
+    color: var(--black);
+    border: 1px solid var(--red);
+}
+#wrapper #design ul li:nth-child(even) {
+    background: linear-gradient(90deg, var(--blue) 0%, var(--violet) 100%);
+    color: var(--white);
+    border: 1px solid var(--lightblue);
+}
+/* wrapper hardware */
+#wrapper #hardware ul li:nth-child(odd) {
+    background-color: var(--white);
+    color: var(--black);
+    animation: rgbBorder 5s infinite;
+}
+#wrapper #hardware ul li:nth-child(even) {
+    background-color: var(--black);
+    color: var(--white);
+    animation: rgbBorder 5s infinite reverse;
+}
+@keyframes rgbBorder {
+    0% {border: 1px solid var(--red);}
+    20% {border: 1px solid var(--pink);}
+    40% {border: 1px solid var(--violet);}
+    60% {border: 1px solid var(--blue);}
+    80% {border: 1px solid var(--yellow);}
+    100% {border: 1px solid var(--orange);}
 }
